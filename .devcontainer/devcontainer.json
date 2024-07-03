@@ -10,5 +10,5 @@
     },
     "forwardPorts": [5173],
 	"postCreateCommand": "ls vue-project || npm create vue@latest -y -- vue-project --vue-router --pinia --eslint --eslint-with-prettier && cd vue-project && npm install",
-    "postStartCommand": "cd vue-project && npm run dev"
+    "postStartCommand": "cd vue-project && nohup bash -c 'npm run dev &'"
 }
