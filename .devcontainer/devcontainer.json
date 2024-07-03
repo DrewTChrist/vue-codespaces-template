@@ -1,6 +1,7 @@
 {
 	"name": "vue-project",
 	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+    "workspaceFolder": "vue-project",
     "customizations": {
 		"vscode": {
 			"extensions": [
