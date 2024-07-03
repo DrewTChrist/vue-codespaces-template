@@ -9,6 +9,6 @@
 		}
     },
     "forwardPorts": [5173],
-	"postCreateCommand": "ls vue-project || npm create vue@latest -- vue-project --vue-router --pinia --eslint --eslint-with-prettier",
+	"postCreateCommand": "ls vue-project || npm create vue@latest -y -- vue-project --vue-router --pinia --eslint --eslint-with-prettier",
     "postStartCommand": "npm run dev"
 }
